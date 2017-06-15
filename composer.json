@@ -1,0 +1,26 @@
+{
+  "name": "ogheo/yii2-morepager",
+  "description": "Pagination widget for yii2 that load and append data via ajax request.",
+  "keywords": ["yii2", "yii2-pagination", "yii2-morepager", "yii2-pager", "pager"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "homepage": "https://github.com/ogheo/yii2-morepager",
+  "authors": [
+    {
+      "name": "Oleg Gheorghita",
+      "email": "oleg.gheo@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "yiisoft/yii2-bootstrap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ogheo\\morepager\\": "src"
+    }
+  },
+  "extra": {
+    "bootstrap": "ogheo\\morepager\\Bootstrap"
+  }
+}
